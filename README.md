@@ -12,5 +12,5 @@ you some common tasks while dealing with a implementation.
             crossForms(['midomain1.com', 'midomain2.eu']);
         });
         
-Any form that its action if set to any of the domains passed to the funcion will be
+Any form that its action if set to any of the domains passed to the function will be
 decorated with the cookies values.
