@@ -3,6 +3,12 @@
 * https://github.com/thyngster/forms_cross_domains.js
 * (c) 2013 David Vallejo ( @thyng )
 * license: www.opensource.org/licenses/mit-license.php
+* 
+* Use:
+*     ga(function (tracker) {
+*       crossForms(['midomain1.com', 'midomain2.eu']);
+*    });
+* 
 */
 
 function crossForms(ua_cross_domains) {
