@@ -1,4 +1,3 @@
-
 /**
 * disqus_tracking.js v1.0.0 - 2013-11-16
 * https://github.com/thyngster/forms_cross_domains.js
@@ -20,6 +19,7 @@ window.onload = function(){
               config: function () {
               this.callbacks.onNewComment = [function(){ ga('send', 'event', 'Disqus', 'New Comment', window.location.href); }];
               this.callbacks.onPaginate = [function(e){ ga('send', 'event', 'Disqus', 'Pagination', window.location.href); }];
+              this.callbacks.onPaginate = [function(e){ ga('send', 'event', 'Disqus', 'User Logged', window.location.href); }];
               }
          });
     }
