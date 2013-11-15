@@ -8,7 +8,7 @@ you some common tasks while dealing with a implementation.
 
 ###Disqus Comments Tracking
 
-Just insert disqus_tracking.js in your pages. It will only try to fire the events in the pages where DISQUS 
+Just insert disqus_tracking.js code in your pages. It will only try to fire the events in the pages where DISQUS 
 commenting system is being loaded.
 
 ###Cross Domain Tracking for Forms
