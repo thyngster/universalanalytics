@@ -1,8 +1,13 @@
 <?php
-// Google Analytics DomainHash Generator
-// David Vallejo ( @thyng )
-// Based on original Urchin's domain hash generation routine
-// 2k14
+/**
+* ga_domain_hash.php v1.0.0 - 2014-01-07
+* https://github.com/thyngster/ga_domain_hash.php
+* (c) 2014 David Vallejo ( @thyng )
+* license: www.opensource.org/licenses/mit-license.php
+*
+* Based on original Urchin's domain hash generation routine
+*
+*/
 
 function utf8_char_code_at($str, $index) {
     $char = mb_substr($str, $index, 1, 'UTF-8');
